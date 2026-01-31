@@ -18,7 +18,7 @@
       name: DevOps
       duration: 10HR
       Trainer: Praveen
-  ansible.builtin.debug:
-    msg: "course info: {{ course | dict2items }}"
+    ansible.builtin.debug:
+     msg: "course info: {{ course | dict2items }}"
 
  
