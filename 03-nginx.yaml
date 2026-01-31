@@ -12,3 +12,19 @@
       name: nginx
       state: started
       enabled: yes
+
+
+# - name: Install and run Nginx server
+#   hosts: frontend
+#   become: yes
+#   tasks: 
+#   - name: installing Nginx server
+#     ansible.builtin.package:
+#       name: nginx
+#       state: present
+
+#   - name: start nginx
+#     ansible.builtin.service:
+#       name: nginx
+#       state: started
+#       enabled: yes
