@@ -21,7 +21,7 @@
   hosts: local
   connection: local
   vars:
-  course_name: DevOps
+  course: DevOps
   Duration: 11H
   Trainer: Praveen
   tasks:
